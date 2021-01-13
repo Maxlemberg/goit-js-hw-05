@@ -42,7 +42,10 @@ class Car {
     }
   }
   static getSpecs(car) {
-    return console.log(car);
+    return console.log(
+      `maxSpeed: ${car.maxSpeed}, speed: ${car.speed}, isOn: ${car.isOn}, distance: ${car.distance}, price: ${car._price}`,
+    );
+    //console.log(car);
   }
 }
 //Car.getSpecs(mustang);
